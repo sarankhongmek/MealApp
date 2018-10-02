@@ -1,0 +1,11 @@
+Who's hungry?
+
+
+{{log model}}
+<ul class="items-container">
+    {{#each model as |item|}}
+        {{menu-item item=item}}
+    {{/each}}
+</ul>
+
+{{outlet}}
